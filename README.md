@@ -42,3 +42,8 @@ analyzer.advanced_visualization_suite()
 - `seaborn`
 - `scipy`
 - `scikit-learn`
+
+
+## Installation
+Follow standard installation steps for this language.
+
