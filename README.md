@@ -1,49 +1,50 @@
-# Advanced Data Analysis Tool
+# Data Analysis Tool
 
-A production-ready Python tool for automated data profiling, cleaning, analysis, and machine learning preprocessing.
+Python data analysis toolkit with Docker, CI, and interactive HTML reports
 
-## Features
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- **Comprehensive Profiling**: Generates detailed reports on data quality, missing values, duplicates, and distributions.
-- **Auto-Cleaning**: Intelligent automatic data cleaning strategies (auto, aggressive, conservative).
-- **Advanced Visualization**: Generates a suite of visualizations (heatmaps, correlation matrices, boxplots, etc.) using `seaborn` and `matplotlib`.
-- **Statistical Testing**: Automated normality tests (Shapiro-Wilk) and independence tests (Chi-square).
-- **ML Preprocessing**: Automated encoding, scaling, imputation, and feature selection for machine learning readiness.
-- **Dimensionality Reduction**: Integrated PCA analysis.
-- **Anomaly Detection**: Outlier detection using Isolation Forest and statistical methods (IQR, Z-score).
-- **Automated Insights**: Generates text-based insights about data quality, skewness, and correlations.
+## 🚀 Overview
 
-## Usage
+Welcome to the **Data Analysis Tool** repository. This project is built to deliver a robust and scalable solution tailored to modern development standards.
 
-```python
-import pandas as pd
-from data_analysis_tool import AdvancedDataAnalyzer
+## ✨ Features
 
-# Load your dataset
-df = pd.read_csv("your_data.csv")
+- **High Performance:** Optimized for speed and efficiency.
+- **Scalable Architecture:** Designed to grow with your needs.
+- **Clean Codebase:** Follows best practices and industry standards.
+- **Secure by Default:** Engineered with security in mind.
 
-# Initialize analyzer
-analyzer = AdvancedDataAnalyzer(df, name="My Dataset")
+## 🛠️ Prerequisites
 
-# Run full pipeline
-analyzer.full_pipeline(auto_clean=True, visualize=True, ml_prep=True)
+Ensure you have the following installed in your environment before proceeding:
+- Appropriate runtime/compiler for `Python`
+- Standard development tools
 
-# Or use specific modules
-report = analyzer.comprehensive_profiling()
-cleaned_df = analyzer.auto_clean_data(strategy="auto")
-analyzer.advanced_visualization_suite()
-```
+## 📦 Installation
 
-## Dependencies
+Follow standard installation steps for `Python` to set up the project locally:
 
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scipy`
-- `scikit-learn`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shivay00001/data-analysis-tool.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd data-analysis-tool
+   ```
+3. Install dependencies according to the standard `Python` ecosystem.
 
+## 💻 Usage
 
-## Installation
-Follow standard installation steps for this language.
+Run the project using standard execution commands for `Python`. Ensure all environment variables and configurations are set prior to execution.
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📝 License
+
+This project is licensed under standard terms.
