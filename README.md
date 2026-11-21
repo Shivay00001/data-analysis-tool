@@ -1,5 +1,7 @@
 # Data Analysis Tool
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 Python data analysis toolkit with Docker, CI, and interactive HTML reports
 
 ![Language](https://img.shields.io/badge/Language-Python-blue)
